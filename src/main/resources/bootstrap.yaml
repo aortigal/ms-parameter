@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: parameter
+
+  cloud:
+    config:
+      uri: http://localhost:8094
+      username: root
+      password: s3cr3t
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/spring_boot
