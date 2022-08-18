@@ -1,6 +1,5 @@
 package com.bank.msparameter.services.impl;
 
-import com.bank.msparameter.controllers.ParameterControllers;
 import com.bank.msparameter.handler.ResponseHandler;
 import com.bank.msparameter.models.dao.ParameterDao;
 import com.bank.msparameter.models.documents.Parameter;
@@ -20,7 +19,7 @@ public class ParameterServiceImpl implements ParameterService {
     @Autowired
     private ParameterDao dao;
 
-    private static final Logger log = LoggerFactory.getLogger(ParameterControllers.class);
+    private static final Logger log = LoggerFactory.getLogger(ParameterServiceImpl.class);
 
     @Override
     public Mono<ResponseHandler> create(Parameter p) {
