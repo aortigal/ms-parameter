@@ -4,10 +4,6 @@ spring:
 
   cloud:
     config:
-      uri: http://localhost:8094
       username: root
-      password: s3cr3t
-
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/spring_boot
+      password: l$14V12GOKEf
+      uri: http://host.docker.internal:8094
